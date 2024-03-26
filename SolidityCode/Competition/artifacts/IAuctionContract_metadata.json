@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_auctionOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ownerTokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "bit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_userTokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "finishAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_userTokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "interruptAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_userTokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_duration",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_minPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "startAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Competition/IAuctionContract.sol": "IAuctionContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Competition/IAuctionContract.sol": {
+			"keccak256": "0x8f368b35c9ab465d86a07be0c91f2df92695194bfa6cc2e322a6d777cdc7ad89",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3f1aea4461303e5919f2bdcf3ca5931004fca72af858b89e1579cbd21e8d7599",
+				"dweb:/ipfs/QmWEQhJYRTvzvDR5fFyKyhtaVQpVoz4W9xA7e5vGkmtiPt"
+			]
+		}
+	},
+	"version": 1
+}
